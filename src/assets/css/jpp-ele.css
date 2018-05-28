@@ -1,0 +1,145 @@
+.el-radio-button:first-child .el-radio-button__inner {
+  border-left: none;
+}
+.el-radio-button__inner,
+.el-radio-button:first-child {
+  border: none;
+}
+.el-radio-button__inner {
+  padding: 19px 20px 16px 20px;
+  color: #888;
+}
+.el-radio-button__inner i {
+  font-size: 26px;
+}
+.el-radio-button:first-child:last-child .el-radio-button__inner {
+  border-radius: 0;
+}
+.el-popover,
+.el-radio-button:first-child:last-child .el-radio-button__inner {
+  border-radius: 0;
+}
+.el-radio-button__inner:hover {
+  color: #888;
+}
+.el-submenu .el-menu,
+.el-menu,
+.el-submenu {
+  width: 240px;
+  background: #464646;
+}
+.el-menu-vertical-demo:not(.el-menu--collapse) {
+  width: 240px;
+  height: calc(100% - 60px);
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.el-menu-item,
+.el-submenu__title {
+  color: #b3b3b3;
+  font-size: 18px;
+}
+.el-submenu .el-menu-item:hover,
+.el-submenu__title:hover {
+  background: none;
+}
+.el-menu-item,
+.el-submenu__title,
+.el-submenu__icon-arrow,
+.el-submenu__title span {
+  transition: all 0s;
+}
+.el-submenu__icon-arrow {
+  right: 30px;
+}
+.el-submenu .el-menu .el-menu-item {
+  font-size: 16px;
+}
+.el-menu--horizontal.el-menu--dark .el-submenu .el-menu-item.is-active,
+.el-menu-item.is-active {
+  background: #3d3d3d !important;
+  color: #b3b3b3 !important;
+}
+.jp-userList .relevance .el-dialog {
+  width: 15.125rem;
+  min-width: 519px;
+}
+.jp-userList .lookMesage .el-dialog {
+  width: 13.6875rem;
+  min-width: 438px;
+}
+.jp-userList .lookMesage .el-dialog .el-dialog__body {
+  padding: 0 1.625rem;
+}
+.jp-userList .relevance .el-dialog .el-dialog__body {
+  padding: 0 20px;
+}
+.jp-authorityList .edit .el-dialog {
+  width: 22.3125rem;
+  min-width: 714px;
+}
+.jp-authorityList .edit .el-dialog .el-dialog__body {
+  padding: 30px 1rem;
+}
+.jp-authorityList .edit .el-dialog .el-form-item__content {
+  padding-left: 0.5rem;
+}
+.jp-authorityList .el-form-item__error {
+  padding-left: 0.5rem;
+}
+.creatingRoles .el-form-item__content {
+  padding-left: 0.5rem;
+  width: 17.5rem;
+  min-width: 560px;
+}
+.creatingRoles .el-form-item__content:last-child {
+  width: 20.5rem;
+}
+.creatingRoles .el-form-item__error {
+  padding-left: 0.5rem;
+}
+.jp-resourceList .el-dialog,
+.jp-menuList .el-dialog,
+.jp-authorityResource .el-dialog {
+  width: 21.25rem;
+  min-width: 680px;
+}
+.jp-resourceList .el-form-item__content,
+.jp-menuList .el-form-item__content,
+.jp-authorityResource .el-form-item__content {
+  padding-left: 0.5rem;
+}
+.jp-resourceList .xinjian .el-form-item,
+.jp-menuList .xinjian .el-form-item,
+.jp-authorityResource .xinjian .el-form-item {
+  position: relative;
+}
+.jp-resourceList .el-form-item__error,
+.jp-menuList .el-form-item__error,
+.jp-authorityResource .el-form-item__error {
+  padding-left: 0.5rem;
+}
+.jp-menuList .item-ipt .el-input__inner,
+.jp-resourceList .item-ipt .el-input__inner,
+.jp-authorityResource .item-ipt .el-input__inner,
+.jp-userList .el-input__inner,
+.jp-authorityList .search .el-input__inner {
+  height: 28px;
+}
+.jp-menuList .item-ipt .el-input,
+.jp-resourceList .item-ipt .el-input,
+.jp-authorityResource .item-ipt .el-input {
+  float: left;
+  width: 4.375rem;
+  min-width: 140px;
+}
+.el-form-item {
+  margin-right: 26px;
+}
+.jp-menuList .el-cascader {
+  width: 100%;
+}
+.el-cascader-menu {
+  max-height: 240px;
+  height: auto;
+}

@@ -1,0 +1,19 @@
+#jc-projectList .search .el-input {
+  margin-left: 14px;
+}
+#jc-projectList .search .el-input .el-input__inner {
+  height: 28px;
+}
+#jc-projectList .el-dialog__wrapper .el-dialog.el-dialog--small {
+  width: 23.4375rem;
+}
+#jc-projectList .el-dialog__wrapper .el-dialog.el-dialog--small .el-dialog__body .demo-ruleForm .el-form-item .el-form-item__content {
+  padding-left: 0.5rem;
+}
+#jc-projectList .el-dialog__wrapper .el-dialog.el-dialog--small .el-dialog__body .demo-ruleForm .button_box {
+  text-align: center;
+  margin-left: none;
+}
+#jc-projectList .el-dialog__wrapper .el-dialog.el-dialog--small .el-dialog__body .demo-ruleForm .el-form-item__error {
+  left: 0.5rem;
+}

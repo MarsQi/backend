@@ -1,0 +1,114 @@
+{
+	"data": [
+		{
+			"id": "1",
+			"name": "张三",
+			"username": "用户1",
+			"tel": "13621030959",
+			"e-mail": "qq.com",
+			"cj_time": "2017-9-21",
+			"xg_time": "2017-9-21","sex":"男",
+			"quanxain": "管理员",
+			"zhuangtai": "可用"
+		},
+		{
+			"id": "2",
+			"name": "李四",
+			"username": "用户1",
+			"tel": "13621030959",
+			"e-mail": "qq.com",
+			"cj_time": "2017-9-21",
+			"xg_time": "2017-9-21","sex":"男",
+			"quanxain": "管理员",
+			"zhuangtai": "可用"
+		},
+		{
+			"id": "3",
+			"name": "小明",
+			"username": "用户1",
+			"tel": "13621030959",
+			"e-mail": "qq.com",
+			"cj_time": "2017-9-21",
+			"xg_time": "2017-9-21","sex":"男",
+			"quanxain": "管理员",
+			"zhuangtai": "可用"
+		},
+		{
+			"id": "4",
+			"name": "小红",
+			"username": "用户1",
+			"tel": "13621030959",
+			"e-mail": "qq.com",
+			"cj_time": "2017-9-21",
+			"xg_time": "2017-9-21","sex":"男",
+			"quanxain": "管理员",
+			"zhuangtai": "可用"
+		},
+		{
+			"id": "5",
+			"name": "井皮皮",
+			"username": "用户1",
+			"tel": "13621030959",
+			"e-mail": "qq.com",
+			"cj_time": "2017-9-21",
+			"xg_time": "2017-9-21","sex":"男",
+			"quanxain": "管理员",
+			"zhuangtai": "可用"
+		},
+		{
+			"id": "6",
+			"name": "齐广超",
+			"username": "用户1",
+			"tel": "13621030959",
+			"e-mail": "qq.com",
+			"cj_time": "2017-9-21",
+			"xg_time": "2017-9-21","sex":"男",
+			"quanxain": "管理员",
+			"zhuangtai": "可用"
+		},
+		{
+			"id": "7",
+			"name": "赵文杰",
+			"username": "用户1",
+			"tel": "13621030959",
+			"e-mail": "qq.com",
+			"cj_time": "2017-9-21",
+			"xg_time": "2017-9-21","sex":"男",
+			"quanxain": "管理员",
+			"zhuangtai": "可用"
+		},
+		{
+			"id": "8",
+			"name": "邱兆峰",
+			"username": "用户1",
+			"tel": "13621030959",
+			"e-mail": "qq.com",
+			"cj_time": "2017-9-21",
+			"xg_time": "2017-9-21","sex":"男",
+			"quanxain": "管理员",
+			"zhuangtai": "可用"
+		},
+		{
+			"id": "9",
+			"name": "纪成",
+			"username": "用户1",
+			"tel": "13621030959",
+			"e-mail": "qq.com",
+			"cj_time": "2017-9-21",
+			"xg_time": "2017-9-21","sex":"男",
+			"quanxain": "管理员",
+			"zhuangtai": "可用"
+		},
+		{
+			"id": "10",
+			"name": "潘粤明",
+			"username": "用户1",
+			"tel": "13621030959",
+			"e-mail": "qq.com",
+			"cj_time": "2017-9-21",
+			"xg_time": "2017-9-21","sex":"男",
+			"quanxain": "管理员",
+			"zhuangtai": "可用"
+		}
+	]
+}

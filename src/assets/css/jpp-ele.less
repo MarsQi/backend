@@ -1,0 +1,162 @@
+//菜单切换
+.el-radio-button:first-child .el-radio-button__inner {
+    border-left: none;
+}
+
+.el-radio-button__inner,
+.el-radio-button:first-child {
+    border: none;
+}
+
+.el-radio-button__inner {
+    padding: 19px 20px 16px 20px;
+    color: #888;
+}
+.el-radio-button__inner i{
+    font-size: 26px;
+}
+
+.el-radio-button:first-child:last-child .el-radio-button__inner {
+    border-radius: 0;
+}
+
+.el-popover,
+.el-radio-button:first-child:last-child .el-radio-button__inner {
+    border-radius: 0;
+}
+.el-radio-button__inner:hover {
+    color: #888;
+}
+//左侧导航
+.el-submenu .el-menu,.el-menu,.el-submenu{
+    width: 240px;
+    background: #464646;
+}
+.el-menu-vertical-demo:not(.el-menu--collapse) {
+width: 240px;
+height: calc(~'100% - 60px');
+overflow-y: auto;
+overflow-x: hidden;
+}
+.el-menu-item, .el-submenu__title{
+    color: rgb(179, 179, 179);
+    font-size: 18px;
+}
+.el-submenu .el-menu-item:hover, .el-submenu__title:hover{
+background: none;
+}
+.el-menu-item, .el-submenu__title,.el-submenu__icon-arrow,.el-submenu__title span{
+    transition: all 0s;
+}
+.el-submenu__icon-arrow{
+    right: 30px;
+}
+.el-submenu .el-menu .el-menu-item{
+    font-size: 16px;
+}
+.el-menu--horizontal.el-menu--dark .el-submenu .el-menu-item.is-active, .el-menu-item.is-active{
+    background: #3d3d3d !important;
+    color: rgb(179, 179, 179) !important;
+}
+
+//用户列表弹框（关联角色）
+.jp-userList .relevance .el-dialog {
+    width: 484/32rem;
+    min-width: 519px;
+}
+
+//用户列表弹框（查看）
+.jp-userList .lookMesage .el-dialog {
+    width: 438/32rem;
+    min-width: 438px;
+    .el-dialog__body {
+        padding: 0 52/32rem;
+    }
+}
+.jp-userList .relevance .el-dialog .el-dialog__body{
+    padding: 0 20px;
+}
+
+//权限列表编辑弹框
+.jp-authorityList .edit .el-dialog {
+    width: 714/32rem;
+    min-width: 714px;
+    .el-dialog__body {
+        padding: 30px 32/32rem;
+    }
+    .el-form-item__content {
+        padding-left: 16/32rem;
+    }
+}
+.jp-authorityList .el-form-item__error{
+    padding-left: 16/32rem
+}
+
+//创建角色模块
+.creatingRoles .el-form-item__content {
+    padding-left: 16/32rem;
+    width: 560/32rem;
+    min-width: 560px;
+}
+
+.creatingRoles .el-form-item__content:last-child {
+    width: 656/32rem;
+}
+
+.creatingRoles .el-form-item__error {
+    padding-left: 16/32rem;
+}
+
+//权限设置弹框（宽）
+.jp-resourceList .el-dialog,
+.jp-menuList .el-dialog,
+.jp-authorityResource .el-dialog {
+    width: 680/32rem;
+    min-width: 680px;
+}
+
+//权限设置弹框form表单内容
+.jp-resourceList .el-form-item__content,
+.jp-menuList .el-form-item__content,
+.jp-authorityResource .el-form-item__content {
+    padding-left: 16/32rem;
+}
+
+.jp-resourceList .xinjian .el-form-item,
+.jp-menuList .xinjian .el-form-item,
+.jp-authorityResource .xinjian .el-form-item {
+    position: relative;
+}
+
+.jp-resourceList .el-form-item__error,
+.jp-menuList .el-form-item__error,
+.jp-authorityResource .el-form-item__error {
+    padding-left: 16/32rem;
+}
+
+.jp-menuList .item-ipt .el-input__inner,
+.jp-resourceList .item-ipt .el-input__inner,
+.jp-authorityResource .item-ipt .el-input__inner,
+.jp-userList .el-input__inner,
+.jp-authorityList .search .el-input__inner {
+    height: 28px;
+}
+
+.jp-menuList .item-ipt .el-input,
+.jp-resourceList .item-ipt .el-input,
+.jp-authorityResource .item-ipt .el-input {
+    float: left;
+    width: 140/32rem;
+    min-width: 140px;
+}
+
+.el-form-item {
+    margin-right: 26px;
+}
+.jp-menuList .el-cascader{
+    width: 100%;
+}
+.el-cascader-menu{
+    max-height: 240px;
+    height: auto;
+}
